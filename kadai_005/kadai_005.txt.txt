@@ -1,0 +1,38 @@
+PS C:\Users\akihi\Downloads\kadai_github> cd "C:\git_challenge"
+PS C:\git_challenge> git init
+Reinitialized existing Git repository in C:/git_challenge/.git/
+PS C:\git_challenge> echo "Hello, world!">"C:\git_challenge\hello_world.txt"
+PS C:\git_challenge> git add "C:\git_challenge\hello_world.txt"
+PS C:\git_challenge> git commit -m "hello_world.txtを追記"
+[main c3ab08a] hello_world.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\git_challenge> echo "こんにちは、世界！">"C:\git_challenge\hello_world.txt"
+PS C:\git_challenge> git add "C:\git_challenge\hello_world.txt"
+PS C:\git_challenge> git commit -m "日本語訳を追記"
+[main bcc47bc] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\git_challenge> git log
+commit bcc47bcad2d7fa3de141cd0560cbacd9494d3c16 (HEAD -> main)
+Author: apumjp0508 <akihisatenshan@gmail.com>
+Date:   Tue Dec 3 20:01:54 2024 +0900
+
+    日本語訳を追記
+
+commit c3ab08a1aa6b433c7921b74d90472454786d9c18
+Author: apumjp0508 <akihisatenshan@gmail.com>
+Date:   Tue Dec 3 20:00:05 2024 +0900
+
+    hello_world.txtを追記
+
+commit 51e657d8818c87b4f03fde64bb60249048c8c2ec
+Author: apumjp0508 <akihisatenshan@gmail.com>
+Date:   Tue Dec 3 19:55:09 2024 +0900
+
+    日本語訳を追記
+
+commit a1406c7696cf43b6a76216ce72bcc2b2dfcffe7b
+Author: apumjp0508 <akihisatenshan@gmail.com>
+Date:   Tue Dec 3 19:25:12 2024 +0900
+
+    henkousitayo
+PS C:\git_challenge> 
